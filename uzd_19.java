@@ -15,7 +15,7 @@ public class uzd_19 {
 
         int max = arrZ[0];
         int maxVieta = 0;
-        for (int i = 0; i < arrZ.length; i++) {
+        for (int i = 1; i < arrZ.length; i++) {
             if (arrZ[i] > max) {
                 max = arrZ[i];
                 maxVieta = i;
@@ -24,7 +24,7 @@ public class uzd_19 {
 
         int min = arrZ[0];
         int minVieta = 0;
-        for (int i = 0; i < arrZ.length; i++) {
+        for (int i = 1; i < arrZ.length; i++) {
             if (arrZ[i] < min) {
                 min = arrZ[i];
                 minVieta = i;
